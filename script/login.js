@@ -4,7 +4,7 @@ document.getElementById('login-btn').addEventListener('click',function(){
     const pinCheck = document.getElementById('pin');
     const pinValue = pinCheck.value;
     
-    const validNum = 1785438758;
+    const validNum = "01785438758";
     const validPin = 1234;
     if(numberVlaue == validNum && pinValue == validPin){
         alert("Longin Success");
