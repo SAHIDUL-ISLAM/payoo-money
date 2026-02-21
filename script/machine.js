@@ -20,3 +20,15 @@ function setBalance(value){
     balanceElement.innerText = value;
 }
 
+//machine > hide all > show what you need
+function showOnly(id){
+    const addMoney = document.getElementById("add-money");
+    const cashout = document.getElementById("cashout");
+
+    addMoney.classList.add("hidden");
+    cashout.classList.add("hidden");
+
+    // show what you click 
+    const seleted = document.getElementById(id);
+    seleted.classList.remove("hidden")
+}
